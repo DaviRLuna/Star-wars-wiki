@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.MFJHtbVcsDy5QUt7s8NQHgHaDr?rs=1&pid=ImgDetMain&o=7&rm=3);
+}
+h1{
+    font-size: 5rem;
+    color: rgb(254, 254, 254);
+    justify-content: center;
+    font-family: monospace;
+}
+h2{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+.Pai{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    align-items: center;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+    margin: 30px;
+}
+.filho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+h3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    font-family: monospace;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+}
+header {
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-family: "Josefin Sans";
+}
+header a {
+    text-decoration: none;
+    
+}
+header li{
+    transition: 1s;
+    padding: 0px;
+    list-style: none;
+}
+header li:hover {
+    transform: scale(1.3);
+    padding: 1px;
+    transition: 1s;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
